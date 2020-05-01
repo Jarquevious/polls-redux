@@ -9,4 +9,4 @@ class QuestionCreateForm(forms.ModelForm):
 class ChoiceCreateForm(forms.ModelForm):
     class Meta:
         model = Choice
-        fields = ["choice_text"]
+        fields = ['choice_text']
